@@ -32,22 +32,15 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
           node-version: '14'
-      - uses: aws-actions/configure-aws-credentials@v1
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
       - name: Build
         run: |
           npm install
           npm run build
-      - uses: kersvers/s3-sync-with-cloudfront-invalidation@v1.0.0
+      - name: Copy ouput to s3
+        uses: prewk/s3-cp-action@v2
         with:
-          args: --acl public-read --follow-symlinks --delete
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_S3_BUCKET: ${{ needs.init.outputs.AWS_S3_BUCKET_NAME }}
-          DISTRIBUTION_ID: ${{ needs.init.outputs.AWS_CLOUDFRONT_ID }}
-          AWS_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
-          SOURCE_DIR: ./out
+          aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          source: './out'
+          dest: s3://master-panuozzo-cl
+          flags: --recursive
