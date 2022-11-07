@@ -59,7 +59,7 @@ const Footer: React.FC = () => {
             ))}
           </div>
           <p className="mt-8 text-base text-gray-400 md:order-1 md:mt-0">
-            &copy; 2022 Panuotzo SPA. Todos los derechos reservados.
+            &copy; 2022 Panuozzo SPA. Todos los derechos reservados.
           </p>
         </div>
       </div>
