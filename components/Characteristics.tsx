@@ -71,10 +71,10 @@ const Characteristics: React.FC = () => {
         <div className="columns-3 mb-20">
           <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
           <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
+          <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
           <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
           <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
           <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
-          <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
         </div>
       </div>
 
