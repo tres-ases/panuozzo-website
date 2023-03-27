@@ -47,7 +47,7 @@ const Characteristics: React.FC = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <div className="flex flex-col justify-center items-center h-[500px]">
-              <h1 className="text-[15vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold">BIENVENIDOS</h1>
+              <h1 className="text-[15vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold text-black dark:text-white">BIENVENIDOS</h1>
             </div>
           </div>
         </div>
@@ -55,19 +55,19 @@ const Characteristics: React.FC = () => {
       </div>
       {/* CARTA */}
       <div id="carta" className="pb-10 pt-20">
-        <h2 className="font-migra font-bold text-center text-[70px]">CARTA</h2>
+        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">CARTA</h2>
         <Carta />
       </div>
 
       {/* MAPA */}
       <div id="ubicacion" className="mx-auto max-w-6xl px-10">
-        <h2 className="font-migra font-bold text-center text-[70px]">UBICACIÓN</h2>
+        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">UBICACIÓN</h2>
         <Mapa />
       </div>
 
       {/* NOSOTROS */}
       <div id="nosotros" className="mx-auto max-w-6xl px-10">
-        <h2 className="font-migra font-bold text-center text-[70px]">NOSOTROS</h2>
+        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">NOSOTROS</h2>
         <div className="columns-3 mb-20">
           <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
           <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />

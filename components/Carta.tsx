@@ -137,7 +137,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-beber">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[13px] mr-2">1</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mb-10 text-left mt-1"> Para beber</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mb-10 text-left mt-1 text-black dark:text-white"> Para beber</h3>
           </button>
           <div id="hs-collapse-beber" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
@@ -171,7 +171,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-antipasti">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1"> Antipasti / Appetizers</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Antipasti / Appetizers</h3>
           </button>
           <div id="hs-collapse-antipasti" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
@@ -207,7 +207,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-center h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-panuozzo">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">3</h3>
-            <div className="text-left">
+            <div className="text-left text-black dark:text-white">
               <h3 className="font-bold font-migra uppercase text-2xl"> Panuozzo</h3>
               <p>Masa fermentada de pizza en su versión de pan relleno y horneado en 2 etapas</p>
             </div>
@@ -234,7 +234,7 @@ export default function Productos() {
                     </div>
 
                   </div>
-                  <div className="flex-shrink-0 pr-2 font-bold flex flex-col items-center justify-center">
+                  <div className="flex-shrink-0 pr-2 font-bold flex flex-col items-center justify-center text-black dark:text-white">
                     <p>Normale {panuozzo.normale}</p>
                     <p>Superiore {panuozzo.superiore}</p>
                   </div>
@@ -248,7 +248,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-center h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-pizzas">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">4</h3>
-            <div className="text-left">
+            <div className="text-left text-black dark:text-white">
               <h3 className="font-bold font-migra uppercase text-2xl"> Nuestras Pizzas</h3>
               <p >Tradiciones italianas y especialidades</p>
             </div>
@@ -314,7 +314,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-teycafe">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">6</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1" > Té y café</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white" > Té y café</h3>
           </button>
           <div id="hs-collapse-teycafe" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
