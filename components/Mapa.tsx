@@ -12,7 +12,7 @@ const Mapa: React.FC = () => {
     &q=Av.+Ramón+Picarte+1085,+Valdivia,+Los+Ríos">
             </iframe>
         </div>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpDf8bugYl66OzmdVkM3Q8WCd3SkvdLJA&callback=initMap"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpDf8bugYl66OzmdVkM3Q8WCd3SkvdLJA"></script>
     </>
     );
 }
