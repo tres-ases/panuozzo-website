@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Logo from "./assets/Logo.svg"
 import { useTheme } from 'next-themes'
+import { useState } from 'react'
+
 
 const navigation = {
   main: [
@@ -13,10 +15,15 @@ const navigation = {
 
 const NavBar: React.FC = () => {
   const { theme, setTheme } = useTheme()
+
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  
   return (<>
     <header>
       <div className=" bg-white dark:bg-black px-8 py-2 flex flex-col justify-center">
-        <Image src={Logo} width="300px" height="116px" alt="Logo" className="block" />
+        <div className="xs:w-[100px] w-[300px] h-[100px] block">
+        <Image width="100%" height="100%" layout="responsive" objectFit="contain" src={Logo} alt="Logo"/>
+        </div>
         <div className="flex flex-row justify-center gap-3 mt-6">
           <nav className="-mb-6 columns-2 sm:flex sm:justify-center items-center sm:space-x-6" aria-label="Footer">
             {navigation.main.map((item) => (

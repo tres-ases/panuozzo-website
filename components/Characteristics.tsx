@@ -48,6 +48,7 @@ const Characteristics: React.FC = () => {
           <div className="mx-auto max-w-3xl">
             <div className="flex flex-col justify-center items-center h-[500px]">
               <h1 className="text-[15vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold text-black dark:text-white">BIENVENIDOS</h1>
+              <p></p>
             </div>
           </div>
         </div>
