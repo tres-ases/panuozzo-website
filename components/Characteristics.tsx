@@ -47,8 +47,8 @@ const Characteristics: React.FC = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <div className="flex flex-col justify-center items-center h-[500px]">
-              <h1 className="text-[15vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold text-black dark:text-white">BIENVENIDOS</h1>
-              <p></p>
+              <h1 className="text-[14vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold text-black dark:text-white">BIENVENIDOS</h1>
+              <p className="text-center  text-black dark:text-white">Panuozzo es una pízzería napolitana ubicada Av. Ramón Picarte 1085, Valdivia. Atiende de lunes a sábado de 12:00 a 17:00 hrs.</p>
             </div>
           </div>
         </div>
@@ -56,26 +56,26 @@ const Characteristics: React.FC = () => {
       </div>
       {/* CARTA */}
       <div id="carta" className="pb-10 pt-20">
-        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">CARTA</h2>
+        <h2 className="font-migra font-bold text-center text-[8vw] sm:text-[70px] text-black dark:text-white">CARTA</h2>
         <Carta />
       </div>
 
       {/* MAPA */}
       <div id="ubicacion" className="mx-auto max-w-6xl px-10">
-        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">UBICACIÓN</h2>
+        <h2 className="font-migra font-bold text-center text-[8vw] sm:text-[70px] text-black dark:text-white">UBICACIÓN</h2>
         <Mapa />
       </div>
 
       {/* NOSOTROS */}
       <div id="nosotros" className="mx-auto max-w-6xl px-10">
-        <h2 className="font-migra font-bold text-center text-[70px] text-black dark:text-white">NOSOTROS</h2>
+        <h2 className="font-migra font-bold text-center text-[8vw] sm:text-[70px] text-black dark:text-white">NOSOTROS</h2>
         <div className="columns-3 mb-20">
-          <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
-          <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
-          <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
-          <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
-          <img className="w-full aspect-[3/4] rounded-[32px] mb-4" src="/img/portrait-placeholder.jpg" />
-          <img className="w-full aspect-square rounded-[32px] mb-4" src="/img/square-placeholder.jpg" />
+          <img className="w-full aspect-[3/4] rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/01.jpg" />
+          <img className="w-full aspect-square rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/02.jpg" />
+          <img className="w-full aspect-square rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/03.jpg" />
+          <img className="w-full aspect-[3/4] rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/04.jpg" />
+          <img className="w-full aspect-[3/4] rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/05.jpg" />
+          <img className="w-full aspect-square rounded-[12px] sm:rounded-[32px] mb-4" src="img/nosotros/06.jpg" />
         </div>
       </div>
 
@@ -83,10 +83,14 @@ const Characteristics: React.FC = () => {
       <div className="mx-auto max-w-6xl px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="transition-all duration-700 hover:cursor-pointer hover:scale-105" >
-            <Image src='/img/Follow-ig.png' width="600px" height="400px" alt="instagram" className="rounded-[32px] overflow-hidden" />
+            <a href="https://www.instagram.com/pizzeria.panuozzo/" target="_blank">
+              <Image src='/img/Follow-ig.png' width="600px" height="400px" alt="instagram" className="rounded-[32px] overflow-hidden" />
+            </a>
           </div>
           <div className="transition-all duration-700 hover:cursor-pointer hover:scale-105" >
-            <Image src='/img/Follow-fb.png' width="600px" height="400px" alt="facebook" className="rounded-[32px]" />
+            <a href="https://www.facebook.com/panuozzo.pizzeria" target="_blank">
+              <Image src='/img/Follow-fb.png' width="600px" height="400px" alt="facebook" className="rounded-[32px]" />
+            </a>
           </div>
         </div>
       </div>
