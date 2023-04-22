@@ -112,7 +112,7 @@ const postres = [
 ]
 
 const teycafe = [
-  { name: 'Té de hoja', price: '$2.600', description: 'Versiones de te negro y acompañamiento, en taza', bgImg: 'img/products/te.png', imageAlt: 'te de hoja', },
+  { name: 'Té de hoja', price: '$2.600', description: '16 variedades de té y agua, consulte disponibilidad', bgImg: 'img/products/te.png', imageAlt: 'te de hoja', },
   { name: 'Ristretto', price: '$1.600', description: 'La versión más concentrada de nuestra extracción de café', bgImg: 'img/products/ristretto.png', imageAlt: 'ristretto', },
   { name: 'Espresso', price: '$1.600', description: 'Extracto de café sin diluir', bgImg: 'img/products/espresso.png', imageAlt: 'espresso', },
   { name: 'Lungo', price: '$1.600', description: 'Un shot de espresso diluido en agua', bgImg: 'img/products/lungo.png', imageAlt: 'lungo', },
@@ -121,10 +121,6 @@ const teycafe = [
   { name: 'Cappuccino', price: '$2.500', description: 'Espresso, leche y una generosa capa de espuma de leche', bgImg: 'img/products/cappuccino.png', imageAlt: 'cappuccino', },
   { name: 'Latte', price: '$2.600', description: 'Espresso, leche y una delgada capa de espuma de leche', bgImg: 'img/products/latte.png', imageAlt: 'latte', },
 ]
-
-function classNames(...classes: any[]) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export default function Productos() {
   return (
@@ -281,7 +277,7 @@ export default function Productos() {
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-postres">
-            <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
+            <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
             <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Postres</h3>
           </button>
           {/* agregar hidden al div abajo */}
