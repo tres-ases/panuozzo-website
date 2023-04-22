@@ -31,13 +31,9 @@ jobs:
           npm install
           npm run build
       - name: Deploy
-        uses: reggionick/s3-deploy@v3
+        uses: lbertenasco/s3-deploy@v1
         with:
           folder: out
           bucket: ${{ secrets.AWS_S3_BUCKET_NAME }}
           dist-id: ${{ secrets.AWS_CLOUDFRONT_ID }}
-          invalidation: /
-          delete-removed: true
-          no-cache: true
-          private: true
-          filesToInclude: ".*/*,*/*,**"
+          invalidation: /*
