@@ -11,7 +11,7 @@ const navigation = {
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'https://www.facebook.com/panuozzo.pizzeria',
       icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -24,7 +24,7 @@ const navigation = {
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'https://www.instagram.com/pizzeria.panuozzo/',
       icon: (props: JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
           {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} className="text-white dark:text-black">
+            <a key={item.name} href={item.href} target="_blank" className="text-white dark:text-black">
               <span className="sr-only">{item.name}</span>
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>

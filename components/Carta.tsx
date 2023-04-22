@@ -6,80 +6,80 @@ const pizzas = [
     name: 'Salmón ahumado',
     price: '$11.500',
     description: 'Base de crema, queso mozzarella, salmón ahumado, alcaparras y albahaca',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/salmon-ahumado.jpg',
+    imageAlt: 'Salmón ahumado',
   },
   {
     id: 2,
     name: 'Burrata',
     price: '$12.400',
     description: 'Salsa de tomate, queso mozzarella, jamón y queso burrata',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/burrata.jpg',
+    imageAlt: 'Burrata',
   },
   {
     id: 3,
     name: 'Prosciutto y pistachos',
     price: '$9.200',
     description: 'Salsa de tomate, mozzarella, jamón crudo, ricotta, pistacho y albahaca',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/prosciutto-pistachos.jpg',
+    imageAlt: 'Prosciutto y pistachos',
   },
   {
     id: 4,
     name: 'Cebolla roja',
     price: '$8.800',
     description: 'Salsa de tomate, mozzarella, cebolla y morrón',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/cebolla-roja.jpg',
+    imageAlt: 'Cebolla roja',
   },
   {
     id: 5,
     name: 'Queso azul y champiñones',
     price: '$9.600',
     description: 'Salsa de tomate, mozzarella, champiñones, queso azul y rúcula',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/queso-azul.jpg',
+    imageAlt: 'Queso azul y champiñones',
   },
   {
     id: 6,
     name: 'Margherita',
     price: '$9.000',
     description: 'Salsa de tomate, queso mozzarella y albahaca',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/margherita.jpg',
+    imageAlt: 'Margherita',
   },
   {
     id: 7,
     name: 'Marinara',
     price: '$8.600',
     description: 'Salsa de tomate, ajo y un toque de aceite de oliva',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/marinara.jpg',
+    imageAlt: 'Marinara',
   },
   {
     id: 8,
     name: 'Diavola',
     price: '$9.700',
     description: 'Salsa de tomate, queso mozzarella y salame picante',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/diavola.jpg',
+    imageAlt: 'Diavola',
   },
   {
     id: 9,
     name: 'Prosciutto cotto e funghi',
     price: '$9.800',
     description: 'Salsa de tomate, mozzarella, jamón cocido y champiñones',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/prosciutto-cotto.jpg',
+    imageAlt: 'Prosciutto cotto e funghi',
   },
   {
     id: 10,
     name: 'Prosciutto e rucola',
     price: '$10.500',
     description: 'Salsa de tomate, mozzarella, jamón crudo y rúcula',
-    imageSrc: 'img/placeholder.jpg',
-    imageAlt: 'Lipsum',
+    imageSrc: 'img/products/prosciutto-rucola.jpg',
+    imageAlt: 'Prosciutto e rucola',
   },
 ]
 
@@ -139,7 +139,8 @@ export default function Productos() {
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[13px] mr-2">1</h3>
             <h3 className="font-bold font-migra uppercase text-2xl mb-10 text-left mt-1 text-black dark:text-white"> Para beber</h3>
           </button>
-          <div id="hs-collapse-beber" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-beber" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
               {brebajes.map((brebaje) => (
                 <li key={brebaje.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
@@ -173,7 +174,8 @@ export default function Productos() {
             <h3 className="bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
             <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/20 dark:text-white/20"> Antipasti / Appetizers</h3>
           </button>
-          <div id="hs-collapse-antipasti" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-antipasti" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
               {antipasti.map((antipasti) => (
                 <li key={antipasti.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
@@ -212,7 +214,8 @@ export default function Productos() {
               <p>Masa fermentada de pizza en su versión de pan relleno y horneado en 2 etapas</p>
             </div>
           </button>
-          <div id="hs-collapse-panuozzo" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-panuozzo" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
               {panuozzo.map((panuozzo) => (
                 <li key={panuozzo.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
@@ -253,7 +256,8 @@ export default function Productos() {
               <p >Tradiciones italianas y especialidades</p>
             </div>
           </button>
-          <div id="hs-collapse-pizzas" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-pizzas" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
               {pizzas.map((pizza) => (
@@ -280,7 +284,8 @@ export default function Productos() {
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
             <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Postres</h3>
           </button>
-          <div id="hs-collapse-postres" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-postres" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
               {postres.map((postres) => (
                 <li key={postres.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
@@ -315,7 +320,8 @@ export default function Productos() {
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">6</h3>
             <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white" > Té y café</h3>
           </button>
-          <div id="hs-collapse-teycafe" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          {/* agregar hidden al div abajo */}
+          <div id="hs-collapse-teycafe" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
               {teycafe.map((teycafe) => (
                 <li key={teycafe.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">

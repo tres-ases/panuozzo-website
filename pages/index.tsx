@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Characteristics from "../components/Characteristics";
 import Head from 'next/head';
+import Script from 'next/script';
 
 const Home: NextPage = () => {
   return (
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       <NavBar />
       <main>
       <Characteristics />
+      <Script src="./assets/vendor/preline/dist/preline.js" />
       </main>
       <Footer />
     </>
