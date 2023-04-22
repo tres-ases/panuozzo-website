@@ -88,7 +88,7 @@ const brebajes = [
   { name: 'Agua mineral', price: '$2.300', description: 'Vital con y sin gas', bgImg: 'img/products/agua-mineral.png', imageAlt: 'agua mineral', },
   { name: 'Bebidas', price: '$2.800', description: 'Coca cola, fanta o sprite en sus distintas versiones', bgImg: 'img/products/bebidas.png', imageAlt: 'bebidas', },
   { name: 'Jugos de pulpa', price: '$3.300', description: 'Piña o frambuesa', bgImg: 'img/products/jugos.png', imageAlt: 'jugos', },
-  { name: 'Botella Raíces de Chancoyán (500 ml)', price: '$3.000', description: 'Versión ámbar o lager', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
+  { name: 'Botella Raíces de Chancoyán (330 ml)', price: '$3.000', description: 'Versión ámbar o lager', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
 ]
 
 const antipasti = [
@@ -168,7 +168,7 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-antipasti">
             <h3 className="bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/20 dark:text-white/20"> Antipasti / Appetizers</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/30 dark:text-white/30"> Antipasti / Appetizers (PRONTO)</h3>
           </button>
           {/* agregar hidden al div abajo */}
           <div id="hs-collapse-antipasti" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
@@ -186,8 +186,8 @@ export default function Productos() {
                   </div>
                   <div className="flex flex-1 flex-shrink items-center justify-between rounded-r-md">
                     <div className="flex-1 px-4 py-2 text-sm">
-                      <h3 className="font-semibold text-gray-900 dark:text-white">
-                        {antipasti.name}
+                      <h3 className="font-semibold text-black/30 dark:text-white/30">
+                        {antipasti.name} (PRONTO)
                       </h3>
                       <p className="text-sm italic text-gray-500 dark:text-gray-400">{antipasti.description}</p>
                     </div>
