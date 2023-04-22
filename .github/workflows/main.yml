@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
@@ -35,10 +35,9 @@ jobs:
         with:
           folder: out
           bucket: ${{ secrets.AWS_S3_BUCKET_NAME }}
-          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           dist-id: ${{ secrets.AWS_CLOUDFRONT_ID }}
           invalidation: /
           delete-removed: true
           no-cache: true
           private: true
-          files-to-include: ".*/*,*/*,**"
+          filesToInclude: ".*/*,*/*,**"
