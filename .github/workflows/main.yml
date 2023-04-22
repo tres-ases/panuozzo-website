@@ -16,9 +16,9 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      AWS_S3_BUCKET_NAME: main-panuozzo-cl
-      AWS_S3_BUCKET_REGION: us-east-1
-      AWS_CLOUDFRONT_ID: EEF0CLCTSXT4T
+      AWS_S3_BUCKET_NAME: "main-panuozzo-cl"
+      AWS_S3_BUCKET_REGION: "us-east-1"
+      AWS_CLOUDFRONT_ID: "EEF0CLCTSXT4T"
     steps:
       - name: Checkout
         uses: actions/checkout@v3
