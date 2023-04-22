@@ -88,7 +88,7 @@ const brebajes = [
   { name: 'Agua mineral', price: '$2.300', description: 'Vital con y sin gas', bgImg: 'img/products/agua-mineral.png', imageAlt: 'agua mineral', },
   { name: 'Bebidas', price: '$2.800', description: 'Coca cola, fanta o sprite en sus distintas versiones', bgImg: 'img/products/bebidas.png', imageAlt: 'bebidas', },
   { name: 'Jugos de pulpa', price: '$3.300', description: 'Piña o frambuesa', bgImg: 'img/products/jugos.png', imageAlt: 'jugos', },
-  { name: 'Schop Raíces de Chancoyán (500 ml)', price: '$3.800', description: 'Versión ámbar o lager', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
+  { name: 'Botella Raíces de Chancoyán (500 ml)', price: '$3.000', description: 'Versión ámbar o lager', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
 ]
 
 const antipasti = [
@@ -170,8 +170,8 @@ export default function Productos() {
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-antipasti">
-            <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Antipasti / Appetizers</h3>
+            <h3 className="bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/20 dark:text-white/20"> Antipasti / Appetizers</h3>
           </button>
           <div id="hs-collapse-antipasti" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">
@@ -275,11 +275,10 @@ export default function Productos() {
             </div>
           </div>
         </div>
-        {/* OTROS PRODUCTOS */}
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-postres">
-            <h3 className="bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/20 dark:text-white/20"> Postres (Pronto)</h3>
+            <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
+            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Postres</h3>
           </button>
           <div id="hs-collapse-postres" className="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
             <ul role="list" className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-2">

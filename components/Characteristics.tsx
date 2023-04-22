@@ -48,7 +48,7 @@ const Characteristics: React.FC = () => {
           <div className="mx-auto max-w-3xl">
             <div className="flex flex-col justify-center items-center h-[500px]">
               <h1 className="text-[14vw] leading-[15vw] md:text-[12vw] md:leading-[12vw] xl:text-[10vw] xl:leading-[10vw] font-migra font-bold text-black dark:text-white">BIENVENIDOS</h1>
-              <p className="text-center  text-black dark:text-white">Panuozzo es una pízzería napolitana ubicada Av. Ramón Picarte 1085, Valdivia. Atiende de lunes a sábado de 12:00 a 17:00 hrs.</p>
+              <p className="text-center  text-black dark:text-white">Panuozzo es una pizzería napolitana ubicada Av. Ramón Picarte 1085, Valdivia. Atiende de lunes a jueves de 11:00 a 20:00 hrs y de viernes a sábado de 11:00 a 22:00 hrs.</p>
             </div>
           </div>
         </div>
