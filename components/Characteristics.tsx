@@ -79,7 +79,7 @@ const Characteristics: React.FC = () => {
         </div>
       </div>
       <div className="text-black dark:text-white text-center mx-auto max-w-6xl px-10 mb-20">
-        <h2 className="font-montserrat font-bold text-2xl">¿qué es lo que hace que nuestra pizza sea única?</h2>
+        <h2 className="font-montserrat font-bold text-2xl">¿Qué es lo que hace que nuestra pizza sea única?</h2>
         <p>Nuestra pasión no es el único ingrediente que hace que nuestros productos 100% artesanales se sientan ligeros y sabrosos...</p>
         <ul
           role="list"
@@ -92,7 +92,7 @@ const Characteristics: React.FC = () => {
           </li>
           <li>
             <img className="mx-auto h-52 w-52 rounded-[32px]" src="img/productos-locales.jpeg" alt="mercado local" />
-            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-white">Potenciamos el mercado locacl</h3>
+            <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900 dark:text-white">Potenciamos el mercado local</h3>
             <p className="text-sm leading-6 text-gray-600 dark:text-gray-400">Queremos llevar lo mejor del mercado local a nuestra mesa, enfocado en tu experiencia.</p>
           </li>
           <li>

@@ -108,7 +108,7 @@ const panuozzo = [
 
 const postres = [
   { name: 'Affogato', price: '$3.900', description: 'Helado de vainilla cubierto con un shot de espresso y polvoreado con chocolate amargo', bgImg: 'img/products/affogato.png', imageAlt: 'affogato', },
-  { name: 'Tiramisù', price: '$4.500', description: 'El clásico postre italiano hecho en casa con base de queso mascarpone', bgImg: 'img/products/tiramisu.png', imageAlt: 'tiramisú', },
+  { name: 'Tiramisú', price: '$4.500', description: 'El clásico postre italiano hecho en casa con base de queso mascarpone', bgImg: 'img/products/tiramisu.png', imageAlt: 'tiramisú', },
 ]
 
 const teycafe = [
