@@ -26,10 +26,10 @@ const NavBar: React.FC = () => {
           <Image width="300px" height="130px" src={Logo} alt="Logo" />
         </div>
         <div className="flex flex-column justify-center mt-6">
-          <nav className="-mb-10 flex justify-center items-center sm:space-x-6 gap-3" aria-label="Footer">
+          <nav className="-mb-10 flex justify-center items-center sm:space-x-6 gap-3" aria-label="Header">
             {navigation.main.map((item) => (
               <div key={item.name}>
-                <a href={item.href} className="p-2 rounded-md transition-all hover:cursor-pointer dark:hover:bg-white/10 hover:bg-black/10 text-sm leading-6 text-black dark:text-white font-bold tracking-widest text-center">
+                <a href={item.href} className="p-2 rounded-md transition-all hover:cursor-pointer dark:hover:bg-white/10 hover:bg-black/10 text-sm leading-6 text-black dark:text-white font-bold tracking-normal sm:tracking-widest text-center">
                   {item.name}
                 </a>
               </div>
