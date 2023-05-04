@@ -43,10 +43,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white dark:bg-black py-6 px-10 ">
       <div className=" overflow-hidden py-20  rounded-[32px] bg-black dark:bg-white max-w-6xl mx-auto ">
-        <nav className="-mb-6 columns-3 flex justify-center space-x-6" aria-label="Footer">
+        <nav className="-mb-10 flex justify-center items-center sm:space-x-6 gap-3" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">
-              <a href={item.href} className="p-2 rounded-md transition-all hover:cursor-pointer dark:hover:bg-black/10 hover:bg-white/10 text-sm leading-6 text-white dark:text-black font-bold tracking-widest">
+              <a href={item.href} className="p-2 rounded-md transition-all hover:cursor-pointer dark:hover:bg-black/10 hover:bg-white/10 text-sm leading-6 text-white dark:text-black font-bold tracking-normal sm:tracking-widest">
                 {item.name}
               </a>
             </div>

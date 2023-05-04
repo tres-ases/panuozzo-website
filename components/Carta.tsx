@@ -131,9 +131,9 @@ export default function Productos() {
         </h2>
         {/* OTROS PRODUCTOS */}
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden">
-          <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-beber">
+          <button type="button" className="w-[100%] flex flex-row items-middle h-14 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-beber">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[13px] mr-2">1</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mb-10 text-left mt-1 text-black dark:text-white"> Para beber</h3>
+            <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 mb-10 text-left mt-1 text-black dark:text-white"> Para beber</h3>
           </button>
           {/* agregar hidden al div abajo */}
           <div id="hs-collapse-beber" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
@@ -141,7 +141,7 @@ export default function Productos() {
               {brebajes.map((brebaje) => (
                 <li key={brebaje.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
                   <div
-                    className='flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
+                    className='hidden sm:flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
                   >
                     <img
                       src={brebaje.bgImg}
@@ -166,9 +166,9 @@ export default function Productos() {
           </div>
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
-          <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-antipasti">
+          <button type="button" className="w-[100%] flex flex-row items-center h-16 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-antipasti">
             <h3 className="bg-black/20 dark:bg-white/20 rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">2</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black/30 dark:text-white/30"> Antipasti / Appetizers (PRONTO)</h3>
+            <h3 className="font-bold font-migra uppercase sm:text-m text-left text-lg sm:text-2xl leading-6 mt-1 text-black/30 dark:text-white/30"> Antipasti / Appetizers (PRONTO)</h3>
           </button>
           {/* agregar hidden al div abajo */}
           <div id="hs-collapse-antipasti" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
@@ -176,7 +176,7 @@ export default function Productos() {
               {antipasti.map((antipasti) => (
                 <li key={antipasti.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
                   <div
-                    className='flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
+                    className='hidden sm:flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
                   >
                     <img
                       src={antipasti.bgImg}
@@ -203,11 +203,11 @@ export default function Productos() {
           </div>
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
-          <button type="button" className="w-[100%] flex flex-row items-center h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-panuozzo">
+          <button type="button" className="w-[100%] flex flex-row items-center h-30 sm:h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-panuozzo">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">3</h3>
             <div className="text-left text-black dark:text-white">
-              <h3 className="font-bold font-migra uppercase text-2xl"> Panuozzo</h3>
-              <p>Masa fermentada de pizza en su versión de pan relleno y horneado en 2 etapas</p>
+              <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left"> Panuozzo</h3>
+              <p className="text-sm sm:text-base">Masa fermentada de pizza en su versión de pan relleno y horneado en 2 etapas</p>
             </div>
           </button>
           {/* agregar hidden al div abajo */}
@@ -216,7 +216,7 @@ export default function Productos() {
               {panuozzo.map((panuozzo) => (
                 <li key={panuozzo.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
                   <div
-                    className='flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
+                    className='hidden sm:flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
                   >
                     <img
                       src={panuozzo.bgImg}
@@ -233,9 +233,9 @@ export default function Productos() {
                     </div>
 
                   </div>
-                  <div className="flex-shrink-0 pr-2 font-bold flex flex-col items-center justify-center text-black dark:text-white">
-                    <p>Normale {panuozzo.normale}</p>
-                    <p>Superiore {panuozzo.superiore}</p>
+                  <div className="flex-shrink-0 px-4 py-2 text-sm sm:text-base text-right leading-snug font-bold flex flex-col items-center justify-center text-black dark:text-white">
+                    <p>Normale  <br className="block sm:hidden"/>{panuozzo.normale}</p>
+                    <p>Superiore <br className="block sm:hidden"/>{panuozzo.superiore}</p>
                   </div>
                 </li>
               ))}
@@ -245,11 +245,11 @@ export default function Productos() {
         </div>
         {/* PIZZAS */}
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
-          <button type="button" className="w-[100%] flex flex-row items-center h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-pizzas">
+          <button type="button" className="w-[100%] flex flex-row items-center h-30 sm:h-20 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-pizzas">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">4</h3>
             <div className="text-left text-black dark:text-white">
-              <h3 className="font-bold font-migra uppercase text-2xl"> Nuestras Pizzas</h3>
-              <p >Tradiciones italianas y especialidades</p>
+              <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left"> Nuestras Pizzas</h3>
+              <p className="text-sm sm:text-base">Tradiciones italianas y especialidades</p>
             </div>
           </button>
           {/* agregar hidden al div abajo */}
@@ -276,9 +276,11 @@ export default function Productos() {
           </div>
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
-          <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-postres">
+          <button type="button" className="w-[100%] flex flex-row items-center h-14 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-postres">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white"> Postres</h3>
+            <div className="text-left text-black dark:text-white">
+            <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left"> Postres</h3>
+            </div>
           </button>
           {/* agregar hidden al div abajo */}
           <div id="hs-collapse-postres" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
@@ -286,7 +288,7 @@ export default function Productos() {
               {postres.map((postres) => (
                 <li key={postres.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
                   <div
-                    className='flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
+                    className='hidden sm:flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
                   >
                     <img
                       src={postres.bgImg}
@@ -312,9 +314,11 @@ export default function Productos() {
           </div>
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
-          <button type="button" className="w-[100%] flex flex-row items-middle h-14 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-teycafe">
+          <button type="button" className="w-[100%] flex flex-row items-center h-14 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-teycafe">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">6</h3>
-            <h3 className="font-bold font-migra uppercase text-2xl mt-1 text-black dark:text-white" > Té y café</h3>
+             <div className="text-left text-black dark:text-white">
+            <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left" > Té y café</h3>
+            </div>
           </button>
           {/* agregar hidden al div abajo */}
           <div id="hs-collapse-teycafe" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
@@ -322,7 +326,7 @@ export default function Productos() {
               {teycafe.map((teycafe) => (
                 <li key={teycafe.name} className="col-span-1 flex rounded-md border border-gray-200 dark:border-white/10 bg-white dark:bg-[#1c1c1c]">
                   <div
-                    className='flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
+                    className='hidden sm:flex w-16 flex-shrink-0 items-center justify-center rounded-l-md text-sm font-bold text-white overflow-hidden'
                   >
                     <img
                       src={teycafe.bgImg}
