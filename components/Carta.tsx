@@ -46,7 +46,7 @@ const pizzas = [
     name: 'Margherita',
     price: '$9.000',
     description: 'Salsa de tomate, queso mozzarella y albahaca',
-    imageSrc: 'img/products/margherita.jpg',
+    imageSrc: 'img/products/pizza_margherita.png',
     imageAlt: 'Margherita',
   },
   {
@@ -99,8 +99,8 @@ const antipasti = [
 ]
 
 const panuozzo = [
-  { name: 'Caprese', normale: '$6.500', superiore: '$9.000', description: 'Queso mozzarella, tomate y albahaca', bgImg: 'img/products/caprese.png', imageAlt: 'panuozzo caprese', },
-  { name: 'Jamón', normale: '$5.900', superiore: '$9.500', description: 'Queso mozzarella, jamón cocido y rúcula', bgImg: 'img/products/jamon.png', imageAlt: 'panuozzo jamón', },
+  { name: 'Caprese', normale: '$6.500', superiore: '$9.000', description: 'Queso mozzarella, tomate y albahaca', bgImg: 'img/products/panuozzo_caprese.png', imageAlt: 'panuozzo caprese', },
+  { name: 'Jamón', normale: '$5.900', superiore: '$9.500', description: 'Queso mozzarella, jamón cocido y rúcula', bgImg: 'img/products/panuozzo_jamon.png', imageAlt: 'panuozzo jamón', },
   { name: 'Salame', normale: '$6.100', superiore: '$9.800', description: 'Queso mozzarella, salame y rúcula', bgImg: 'img/products/salame.png', imageAlt: 'panuozzo salame', },
   { name: 'Prosciutto', normale: '$6.400', superiore: '$10.300', description: 'Prosciutto y rúcula', bgImg: 'img/products/prosciutto.png', imageAlt: 'panuozzo prosciutto', },
   { name: 'Salmón ahumado', normale: '$6.400', superiore: '$10.300', description: 'Salmón ahumado, queso crema y rúcula', bgImg: 'img/products/salmon-ahumado.png', imageAlt: 'panuozzo salmon ahumado', },
@@ -118,8 +118,8 @@ const teycafe = [
   { name: 'Lungo', price: '$1.600', description: 'Un shot de espresso diluido en agua', bgImg: 'img/products/lungo.png', imageAlt: 'lungo', },
   { name: 'Espresso Doppio', price: '$2.200', description: 'Doble shot de espresso', bgImg: 'img/products/espresso-doppio.png', imageAlt: 'espresso doppio', },
   { name: 'Americano', price: '$2.500', description: 'Doble shot de espresso diluido en agua', bgImg: 'img/products/americano.png', imageAlt: 'americano', },
-  { name: 'Cappuccino', price: '$2.500', description: 'Espresso, leche y una generosa capa de espuma de leche', bgImg: 'img/products/cappuccino.png', imageAlt: 'cappuccino', },
-  { name: 'Latte', price: '$2.600', description: 'Espresso, leche y una delgada capa de espuma de leche', bgImg: 'img/products/latte.png', imageAlt: 'latte', },
+  { name: 'Cappuccino', price: '$2.500', description: 'Espresso, leche y una generosa capa de espuma de leche', bgImg: 'img/products/cafe_cappuccino.png', imageAlt: 'cappuccino', },
+  { name: 'Latte', price: '$2.600', description: 'Espresso, leche y una delgada capa de espuma de leche', bgImg: 'img/products/cafe_latte.png', imageAlt: 'latte', },
 ]
 
 export default function Productos() {
