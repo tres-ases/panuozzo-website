@@ -5,7 +5,7 @@ const pizzas = [
     id: 1,
     name: 'Salmón ahumado',
     price: '$11.500',
-    description: 'Base de crema, queso mozzarella, salmón ahumado, alcaparras y albahaca',
+    description: 'Base de crema, queso Grana Padano rayado, mozzarella, salmón ahumado, alcaparras y albahaca.',
     imageSrc: 'img/products/salmon-ahumado.jpg',
     imageAlt: 'Salmón ahumado',
   },
@@ -13,15 +13,15 @@ const pizzas = [
     id: 2,
     name: 'Burrata',
     price: '$12.400',
-    description: 'Salsa de tomate, queso mozzarella, jamón y queso burrata',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, jamón cocido y queso burrata',
     imageSrc: 'img/products/burrata.jpg',
     imageAlt: 'Burrata',
   },
   {
     id: 3,
     name: 'Prosciutto y pistachos',
-    price: '$9.200',
-    description: 'Salsa de tomate, mozzarella, jamón crudo, ricotta, pistacho y albahaca',
+    price: '$9.800',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, jamón crudo, ricota, pistachos y albahaca',
     imageSrc: 'img/products/prosciutto-pistachos.jpg',
     imageAlt: 'Prosciutto y pistachos',
   },
@@ -29,15 +29,15 @@ const pizzas = [
     id: 4,
     name: 'Cebolla roja',
     price: '$8.800',
-    description: 'Salsa de tomate, mozzarella, cebolla y morrón',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, cebolla y pimentón.',
     imageSrc: 'img/products/cebolla-roja.jpg',
     imageAlt: 'Cebolla roja',
   },
   {
     id: 5,
     name: 'Queso azul y champiñones',
-    price: '$9.600',
-    description: 'Salsa de tomate, mozzarella, champiñones, queso azul y rúcula',
+    price: '$9.800',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, queso azul, champiñones y rúcula',
     imageSrc: 'img/products/queso-azul.jpg',
     imageAlt: 'Queso azul y champiñones',
   },
@@ -45,7 +45,7 @@ const pizzas = [
     id: 6,
     name: 'Margherita',
     price: '$9.000',
-    description: 'Salsa de tomate, queso mozzarella y albahaca',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, albahaca y aceite de oliva',
     imageSrc: 'img/products/pizza_margherita.png',
     imageAlt: 'Margherita',
   },
@@ -53,7 +53,7 @@ const pizzas = [
     id: 7,
     name: 'Marinara',
     price: '$8.600',
-    description: 'Salsa de tomate, ajo y un toque de aceite de oliva',
+    description: 'Salsa de tomate, ajo y aceite de oliva',
     imageSrc: 'img/products/marinara.jpg',
     imageAlt: 'Marinara',
   },
@@ -61,7 +61,7 @@ const pizzas = [
     id: 8,
     name: 'Diavola',
     price: '$9.700',
-    description: 'Salsa de tomate, queso mozzarella y salame picante',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella y salame picante ',
     imageSrc: 'img/products/diavola.jpg',
     imageAlt: 'Diavola',
   },
@@ -69,7 +69,7 @@ const pizzas = [
     id: 9,
     name: 'Prosciutto cotto e funghi',
     price: '$9.800',
-    description: 'Salsa de tomate, mozzarella, jamón cocido y champiñones',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, jamón cocido y champiñones',
     imageSrc: 'img/products/prosciutto-cotto.jpg',
     imageAlt: 'Prosciutto cotto e funghi',
   },
@@ -77,7 +77,7 @@ const pizzas = [
     id: 10,
     name: 'Prosciutto e rucola',
     price: '$10.500',
-    description: 'Salsa de tomate, mozzarella, jamón crudo y rúcula',
+    description: 'Salsa de tomate, queso Grana Padano rayado, mozzarella, jamón crudo, rúcula y aceite de oliva.',
     imageSrc: 'img/products/prosciutto-rucola.jpg',
     imageAlt: 'Prosciutto e rucola',
   },
@@ -85,10 +85,10 @@ const pizzas = [
 
 
 const brebajes = [
-  { name: 'Agua mineral', price: '$2.300', description: 'Vital con y sin gas', bgImg: 'img/products/agua-mineral.png', imageAlt: 'agua mineral', },
-  { name: 'Bebidas', price: '$2.800', description: 'Coca cola, fanta o sprite en sus distintas versiones', bgImg: 'img/products/bebidas.png', imageAlt: 'bebidas', },
-  { name: 'Jugos de pulpa', price: '$3.300', description: 'Piña o frambuesa', bgImg: 'img/products/jugos.png', imageAlt: 'jugos', },
-  { name: 'Botella Raíces de Chancoyán (330 ml)', price: '$3.000', description: 'Versión ámbar o lager', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
+  { name: 'Agua mineral', price: '$1.600', description: 'Con y sin gas', bgImg: 'img/products/agua-mineral.png', imageAlt: 'agua mineral', },
+  { name: 'Bebidas', price: '$2.200', description: 'Gaseosas con y sin azúcar', bgImg: 'img/products/bebidas.png', imageAlt: 'bebidas', },
+  { name: 'Jugo de fruta', price: '$3.300', description: 'Según disponibilidad', bgImg: 'img/products/jugos.png', imageAlt: 'jugos', },
+  { name: 'Cerveza artesanal Raíces de Chancoyán', price: '$3.000', description: 'Botella de 330cc.', bgImg: 'img/products/cerveza.png', imageAlt: 'cerveza', },
 ]
 
 const antipasti = [
@@ -99,11 +99,13 @@ const antipasti = [
 ]
 
 const panuozzo = [
-  { name: 'Caprese', normale: '$6.500', superiore: '$9.000', description: 'Queso mozzarella, tomate y albahaca', bgImg: 'img/products/panuozzo_caprese.png', imageAlt: 'panuozzo caprese', },
-  { name: 'Jamón', normale: '$5.900', superiore: '$9.500', description: 'Queso mozzarella, jamón cocido y rúcula', bgImg: 'img/products/panuozzo_jamon.png', imageAlt: 'panuozzo jamón', },
-  { name: 'Salame', normale: '$6.100', superiore: '$9.800', description: 'Queso mozzarella, salame y rúcula', bgImg: 'img/products/salame.png', imageAlt: 'panuozzo salame', },
-  { name: 'Prosciutto', normale: '$6.400', superiore: '$10.300', description: 'Prosciutto y rúcula', bgImg: 'img/products/prosciutto.png', imageAlt: 'panuozzo prosciutto', },
-  { name: 'Salmón ahumado', normale: '$6.400', superiore: '$10.300', description: 'Salmón ahumado, queso crema y rúcula', bgImg: 'img/products/salmon-ahumado.png', imageAlt: 'panuozzo salmon ahumado', },
+  { name: 'Caprese', normale: '$5.600', description: 'Queso mozzarella, tomate, albahaca y aceite de oliva', bgImg: 'img/products/panuozzo_caprese.png', imageAlt: 'panuozzo caprese', },
+  { name: 'Jamón', normale: '$5.900', description: 'Queso mozzarella, jamón cocido, tomate y rúcula', bgImg: 'img/products/panuozzo_jamon.png', imageAlt: 'panuozzo jamón', },
+  { name: 'Salame', normale: '$6.100', description: 'Queso mozzarella, salame picante, tomate y rúcula', bgImg: 'img/products/salame.png', imageAlt: 'panuozzo salame', },
+  { name: 'Prosciutto', normale: '$6.400', description: 'Queso crema, prosciutto, tomate y rúcula', bgImg: 'img/products/prosciutto.png', imageAlt: 'panuozzo prosciutto', },
+  { name: 'Salmón ahumado', normale: '$6.400', description: 'Queso crema, salmón ahumado y rúcula', bgImg: 'img/products/salmon-ahumado.png', imageAlt: 'panuozzo salmon ahumado', },
+  { name: 'Cebolla pimentón', normale: '$5.600', description: 'Mozzarella, cebolla y pimentón', bgImg: 'img/products/image-template', imageAlt: 'panuozzo cebolla pimenton', },
+  { name: 'Alleato', normale: '$3.000', description: 'Jamón cocido y queso mantecoso', bgImg: 'img/products/image-template', imageAlt: 'panuozzo alleato', },
 ]
 
 const postres = [
@@ -112,14 +114,17 @@ const postres = [
 ]
 
 const teycafe = [
-  { name: 'Té de hoja', price: '$2.600', description: '16 variedades de té y agua, consulte disponibilidad', bgImg: 'img/products/te.png', imageAlt: 'te de hoja', },
-  { name: 'Ristretto', price: '$1.600', description: 'La versión más concentrada de nuestra extracción de café', bgImg: 'img/products/ristretto.png', imageAlt: 'ristretto', },
-  { name: 'Espresso', price: '$1.600', description: 'Extracto de café sin diluir', bgImg: 'img/products/espresso.png', imageAlt: 'espresso', },
-  { name: 'Lungo', price: '$1.600', description: 'Un shot de espresso diluido en agua', bgImg: 'img/products/lungo.png', imageAlt: 'lungo', },
+  { name: 'Té de hoja', price: '$2.600', description: 'Versiones de Té Negro, Verde, Blanco y Rojo a elección según carta de Té', bgImg: 'img/products/te.png', imageAlt: 'te de hoja', },
+  { name: 'Chai latte', price: '$2.900', description: 'Té Masala Chai, Leche texturizada y terminado con canela en polvo', bgImg: 'img/products/chai-latte.png', imageAlt: 'chai latte', },
+  { name: 'Espresso', price: '$1.600', description: 'Extracción de café sin diluir', bgImg: 'img/products/espresso.png', imageAlt: 'espresso', },
+  { name: 'Ristretto', price: '$1.600', description: 'Primera mitad de la extracción de un espresso, obteniendo la dulzura e intensidad acentuada de la primera fase de la extracción', bgImg: 'img/products/ristretto.png', imageAlt: 'ristretto', },
+  { name: 'Lungo', price: '$1.600', description: 'Un shot de espresso diluido en 25cc de agua', bgImg: 'img/products/lungo.png', imageAlt: 'lungo', },
   { name: 'Espresso Doppio', price: '$2.200', description: 'Doble shot de espresso', bgImg: 'img/products/espresso-doppio.png', imageAlt: 'espresso doppio', },
-  { name: 'Americano', price: '$2.500', description: 'Doble shot de espresso diluido en agua', bgImg: 'img/products/americano.png', imageAlt: 'americano', },
-  { name: 'Cappuccino', price: '$2.500', description: 'Espresso, leche y una generosa capa de espuma de leche', bgImg: 'img/products/cafe_cappuccino.png', imageAlt: 'cappuccino', },
-  { name: 'Latte', price: '$2.600', description: 'Espresso, leche y una delgada capa de espuma de leche', bgImg: 'img/products/cafe_latte.png', imageAlt: 'latte', },
+  { name: 'Americano', price: '$2.500', description: 'Doble shot de espresso diluido en 110cc de agua', bgImg: 'img/products/americano.png', imageAlt: 'americano', },
+  { name: 'Espresso macchiato', price: '$1.800', description: 'Espresso manchado con una pequeña cantidad de leche caliente y espumada', bgImg: 'img/products/espresso-macchiato.png', imageAlt: 'espresso macchiato', },
+  { name: 'Cappuccino', price: '$2.500', description: 'Espresso, leche texturizada y una generosa capa de espuma de leche', bgImg: 'img/products/cafe_cappuccino.png', imageAlt: 'cappuccino', },
+  { name: 'Latte', price: '$2.900', description: 'Espresso, leche texturizada y una delgada capa de espuma de leche', bgImg: 'img/products/cafe_latte.png', imageAlt: 'latte', },
+  { name: 'Mocaccino', price: '$3.500', description: 'Base de salsa de chocolate, shot de espresso, leche texturizada, crema chantillí y terminado con chocolate amargo en polvo', bgImg: 'img/products/mocaccino.png', imageAlt: 'mocaccino', },
 ]
 
 export default function Productos() {
@@ -234,8 +239,7 @@ export default function Productos() {
 
                   </div>
                   <div className="flex-shrink-0 px-4 py-2 text-sm sm:text-base text-right leading-snug font-bold flex flex-col items-center justify-center text-black dark:text-white">
-                    <p>Normale  <br className="block sm:hidden"/>{panuozzo.normale}</p>
-                    <p>Superiore <br className="block sm:hidden"/>{panuozzo.superiore}</p>
+                    <p>{panuozzo.normale}</p>
                   </div>
                 </li>
               ))}
@@ -253,7 +257,7 @@ export default function Productos() {
             </div>
           </button>
           {/* agregar hidden al div abajo */}
-          <div id="hs-collapse-pizzas" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3" aria-labelledby="hs-collapse">
+          <div id="hs-collapse-pizzas" className="hs-collapse  w-full overflow-hidden transition-[height] duration-300 p-3 pb-6" aria-labelledby="hs-collapse">
             <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 
               {pizzas.map((pizza) => (
@@ -274,12 +278,22 @@ export default function Productos() {
               ))}
             </div>
           </div>
+          <div className="text-black dark:text-white p-6 border-t border-orange-500 text-center">
+            <img src="/img/extras.png" width='400px' alt="extras" className="mx-auto" />
+            <h4 className="font-migra font-bold text-3xl">AGREGA INGREDIENTES:</h4>
+            <ul>
+              <li>Mozzarella, salame picante o jamón crudo: <b>$1.800</b></li>
+              <li>Ricotta o queso azul: <b>$1.200</b></li>
+              <li>Champiñones, jamón cocido o rúcula: <b>$1.000</b></li>
+              <li>Albahaca, pistachos, alcaparras, cebolla o pimentón: <b>$500</b></li>
+            </ul>
+          </div>
         </div>
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-center h-14 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-postres">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">5</h3>
             <div className="text-left text-black dark:text-white">
-            <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left"> Postres</h3>
+              <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left"> Postres</h3>
             </div>
           </button>
           {/* agregar hidden al div abajo */}
@@ -316,8 +330,8 @@ export default function Productos() {
         <div className="rounded-xl border border-gray-200 dark:border-white/10 overflow-hidden mt-6">
           <button type="button" className="w-[100%] flex flex-row items-center h-14 sm:h-16 hover:bg-gray-50 dark:hover:bg-white/5 transition-all p-3 hs-collapse-toggle" data-hs-collapse="#hs-collapse-teycafe">
             <h3 className="bg-[#FF3300] rounded-full text-white font-migra font-bold text-xl py-[2px] px-[10px] mr-2">6</h3>
-             <div className="text-left text-black dark:text-white">
-            <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left" > Té y café</h3>
+            <div className="text-left text-black dark:text-white">
+              <h3 className="font-bold font-migra uppercase text-lg sm:text-2xl leading-6 text-left" > Té y café</h3>
             </div>
           </button>
           {/* agregar hidden al div abajo */}
