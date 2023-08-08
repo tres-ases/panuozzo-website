@@ -104,8 +104,8 @@ const panuozzo = [
   { name: 'Salame', normale: '$6.100', description: 'Queso mozzarella, salame picante, tomate y rúcula', bgImg: 'img/products/salame.png', imageAlt: 'panuozzo salame', },
   { name: 'Prosciutto', normale: '$6.400', description: 'Queso crema, prosciutto, tomate y rúcula', bgImg: 'img/products/prosciutto.png', imageAlt: 'panuozzo prosciutto', },
   { name: 'Salmón ahumado', normale: '$6.400', description: 'Queso crema, salmón ahumado y rúcula', bgImg: 'img/products/salmon-ahumado.png', imageAlt: 'panuozzo salmon ahumado', },
-  { name: 'Cebolla pimentón', normale: '$5.600', description: 'Mozzarella, cebolla y pimentón', bgImg: 'img/products/image-template', imageAlt: 'panuozzo cebolla pimenton', },
-  { name: 'Alleato', normale: '$3.000', description: 'Jamón cocido y queso mantecoso', bgImg: 'img/products/image-template', imageAlt: 'panuozzo alleato', },
+  { name: 'Cebolla pimentón', normale: '$5.600', description: 'Mozzarella, cebolla y pimentón', bgImg: 'img/products/image-template.jpg', imageAlt: 'panuozzo cebolla pimenton', },
+  { name: 'Alleato', normale: '$3.000', description: 'Jamón cocido y queso mantecoso', bgImg: 'img/products/image-template.jpg', imageAlt: 'panuozzo alleato', },
 ]
 
 const postres = [
